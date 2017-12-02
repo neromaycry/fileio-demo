@@ -1,0 +1,16 @@
+{
+  "name": "fileio-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joey",
+  "license": "ISC",
+  "dependencies": {
+    "dataStream": "0.0.5",
+    "md5": "^2.2.1",
+    "underscore": "^1.8.3"
+  }
+}
