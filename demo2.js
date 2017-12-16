@@ -1,5 +1,5 @@
 /**
- * 判断两个文件是否相同
+ * 这个demo实现了两个文件夹中文件的对比，实现将A文件夹中的文件复制到B文件夹时，如果文件是相同的（指文件名和内容相同），则跳过，否则进行复制
  */
 
 const fs = require('fs');
@@ -10,8 +10,6 @@ let path1 = __dirname + '\\testdir1\\',
     path2 = __dirname + '\\testdir2\\';
 
 let filelist1 = fs.readdirSync(path1);
-
-// console.log(filelist1);
 
 fs.readdir(path2, function (err, files) {
     if (err) {
@@ -48,6 +46,5 @@ fs.readdir(path2, function (err, files) {
             }
         }
     }
-
 });
 
